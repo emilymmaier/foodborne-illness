@@ -11,7 +11,7 @@ All data files to be analyzed must:
 - be in csv format
 - be name according to the following convention using underscores to separate information:
   
-  <illness_dataSource_samplingFrequency.csv>
+      illness_dataSource_samplingFrequency.csv
   
 - have the following order of column names, with unlimited number of symptoms:
   
