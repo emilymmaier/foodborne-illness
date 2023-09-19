@@ -41,3 +41,10 @@ data_source  illness  symptom    lag  correlation  pvalue  significant
 twitter      e coli   diarrhea   -5   0.129        0.089   0
 twitter      e coli   diarrhea   -4   0.196        0.012   1
 ```
+data_source: 
+illness: 
+symptom:
+lag:
+correlation:
+pvalue:
+significant:
