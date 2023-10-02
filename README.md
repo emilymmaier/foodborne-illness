@@ -7,7 +7,7 @@ Identify symptom keywords from online data occuring in the five weeks before and
 
 ## Usage
 All data files to be analyzed must:
-- be contained in a directory which does not contain any other files
+- be contained in a single directory which does not contain any unnecessary files
 - be in csv format
 - be name according to the following convention using underscores to separate information:
 
@@ -17,10 +17,10 @@ All data files to be analyzed must:
 
   dataSource: Website from which symptom keyword occurances were quantified
 
-  samplingFrequency: How often number of cases and number of symptom keywords were measured (ie. daily, weekly, monthly, etc.). Sampling frequency must be consistent for         number of cases and number of symptom keywords.
+  samplingFrequency: How often number of cases and number of symptom keyword occurences were measured (ie. daily, weekly, monthly, etc.). Sampling frequency must be consistent   for number of cases and number of symptom keyword occurences.
   
   
-- have the following order of column names, with an unlimited number of symptoms:
+- have the following order of columns, with an unlimited number of symptoms:
 
   ```
   date        nCases  symptom1  symptom2 symptom3 ...
@@ -29,7 +29,7 @@ All data files to be analyzed must:
   ```
   date: Date of the first day of the sampling period
   
-  nCases: Number of cases reported via laboratory testing (or other traditional methods of case reporting) for the sampling period
+  nCases: Number of cases reported via laboratory testing (or other traditional methods of case reporting) during the sampling period
   
   symptomX: Number of times the symptom keyword appeared in online data during the sampling period
 
