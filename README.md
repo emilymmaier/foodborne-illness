@@ -13,7 +13,7 @@ All data files to be analyzed must:
 
   `illness_dataSource_samplingFrequency.csv`
   
-- have the following order of column names, with unlimited number of symptoms:
+- have the following order of column names, with an unlimited number of symptoms:
 
   ```
   date        numberOfCases  symptom1  symptom2 symptom3 ...
@@ -21,9 +21,11 @@ All data files to be analyzed must:
   2019-01-13  34             288       49       152      ...
   ```
 
-date: date of the first day of the sampling period
-numberOfCases: number of cases reported via laboratory testing for the sampling period
-symptomX: number of times the symptom keyword appeared in online data during the sampling period
+  date: date of the first day of the sampling period
+  
+  numberOfCases: number of cases reported via laboratory testing for the sampling period
+  
+  symptomX: number of times the symptom keyword appeared in online data during the sampling period
 
 
 Run in command line using:
