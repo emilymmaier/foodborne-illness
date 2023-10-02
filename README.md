@@ -23,9 +23,9 @@ All data files to be analyzed must:
 - have the following order of columns, with an unlimited number of symptoms:
 
   ```
-  date        nCases  symptom1  symptom2 symptom3 ...
-  2019-01-06  21             229       53       107      ...
-  2019-01-13  34             288       49       152      ...
+  date        nCases  symptom1  symptom2  symptom3  ...
+  2019-01-06  21      229       53        107       ...
+  2019-01-13  34      288       49        152       ...
   ```
   date: Date of the first day of the sampling period
   
@@ -49,8 +49,8 @@ The program will output a csv file of the following format:
 
 ```
 data_source  illness  symptom    lag  correlation  pvalue  significant
-twitter      E. coli   diarrhea   -5   -0.029       0.099   0
-twitter      E. coli   diarrhea   -4   0.196        0.012   1
+twitter      E. coli  diarrhea    -5   -0.029      0.099   0
+twitter      E. coli  diarrhea    -4   0.196       0.012   1
 ```
 data_source: Website from which symptom keyword occurances were quantified
 
