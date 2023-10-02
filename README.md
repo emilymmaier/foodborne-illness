@@ -1,5 +1,5 @@
 # foodborne-illness
-Identify symptom keywords from online data occuring in the five weeks before and after foodborne illness cases are reported that have a significant correlation to case incidence. For more information on cross-correlation analysis and the ccf funtion in R, click [here] (https://online.stat.psu.edu/stat510/lesson/8/8.2).
+Identify symptom keywords from online data occuring in the five weeks before and after foodborne illness cases are reported that have a significant correlation to case incidence. For more information on cross-correlation analysis and the ccf funtion in R, click [here](https://online.stat.psu.edu/stat510/lesson/8/8.2).
 
 ## Dependencies
 - Written in R version 4.1.2
